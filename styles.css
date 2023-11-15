@@ -270,6 +270,10 @@ header {
   border-radius: 10px;
 }
 
+#about{
+  text-decoration: none;
+}
+
 .why__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -423,11 +427,11 @@ header {
 
 
 .footer__col h3 span {
-  width: 50%;
+  width: 100%;
   height: 60px;
 }
 .footer__col h3 span img {
-    width: 20%;
+    width: 100%;
     height: 30px;
 }
 
@@ -482,10 +486,6 @@ header {
   cursor: pointer;
   transition: .5s ease;
 }
-
-.footer__socials span:hover {
-    color: #003c01;
-} 
 
 @media (width > 900px) {
     .footer__col h3 span img {
@@ -578,8 +578,9 @@ header {
     gap: 1rem;
   }
   .footer__col h3 span img {
-    width: 35%;
+    width: 100%;
     height: 60px;
+    float: right;
 }
 
   
